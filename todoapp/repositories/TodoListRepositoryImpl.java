@@ -1,7 +1,8 @@
-package repositories;
+package todoapp.repositories;
 
-import entities.TodoList;
+import todoapp.entities.TodoList;
 
+@component
 public class TodoListRepositoryImpl implements TodoListRepository {
     public static TodoList[] todos = new TodoList[2];
 
